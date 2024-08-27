@@ -1,0 +1,14 @@
+@import url("./fonts.css");
+
+* {
+    font-family: 'Roboto Mono';
+}
+
+.container {
+    max-width: 60vw;  
+    margin: 0 auto;   
+    padding: 20px;    
+    box-sizing: border-box;
+}
+
+

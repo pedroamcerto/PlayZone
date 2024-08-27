@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333333;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 7rem;
+}
+nav {
+    padding: 0.2rem 0.2rem;
+    width: 100%;
+}
+.center {
+    margin: 0 auto;
+}
+.active{
+    text-decoration: underline #333333;
+  }
