@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 28px;
     color: #333333;
 }
 ul{
@@ -20,4 +20,4 @@ nav {
 }
 .active{
     text-decoration: underline #333333;
-  }
+}
