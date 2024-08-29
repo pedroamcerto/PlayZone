@@ -5,7 +5,7 @@ function CommonButton(props) {
 
 
     return ( 
-        <button>
+        <button class="common-button">
             {props.label}
         </button>
     );
