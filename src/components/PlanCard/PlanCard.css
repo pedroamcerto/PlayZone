@@ -1,0 +1,40 @@
+.planCards-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.title-container {
+    width: 270px;
+    height: 74px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EBE9E9
+}
+
+.title-container h3 {
+    text-align: center;
+}
+.plan-card-body {
+    border: 1px solid #EBE9E9;
+    height: 330px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 20px 15px 20px 15px;
+}
+.plan-button {
+    height: 34px;
+    border-radius: 6px;
+    width: 100%;
+}

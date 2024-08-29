@@ -20,3 +20,9 @@ h1 {
     line-height: 31.65px;
     text-align: left;
 }
+
+@media only screen and (max-width: 1300px) {
+    .text-banner-container{
+        width: 100%;
+    }
+}

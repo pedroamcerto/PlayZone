@@ -8,7 +8,7 @@ function TextBanner(props) {
 
             <p className="description">{props.description}</p>
 
-            <CommonButton label={props.buttonLabel}></CommonButton>
+            <CommonButton className="banner-button" label={props.buttonLabel}></CommonButton>
         </div>
     );
 }
