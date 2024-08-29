@@ -3,6 +3,9 @@ import bannerImg from '../../assets/images/Hero image.png'
 import './Home.css'
 import Card from "../../components/Card/Card";
 import youtubeImg from '../../assets/images/yt.png'
+import tiktokImg from "../../assets/images/Ellipse 26.png"
+import facebookImg from "../../assets/images/Ellipse 26 (2).png"
+import instagramImg from "../../assets/images/Ellipse 27 (1).png"
 
 function Home() {
     return ( 
@@ -18,9 +21,15 @@ function Home() {
             <section>
                 <div className="cards-container">
                     <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
+<<<<<<< Updated upstream
                     <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
                     <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
                     <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
+=======
+                    <Card title="02" img={tiktokImg} subtitle="Tiktok" description="Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok." cardColor="#F9EB98"></Card>
+                    <Card title="03" img={facebookImg} subtitle="Facebook" description="Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook." cardColor="#C0D9DD"></Card>
+                    <Card title="04" img={instagramImg} subtitle="Instagram" description="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels." cardColor="#6975E8"></Card>
+>>>>>>> Stashed changes
                 </div>
             </section>
         </div> 
