@@ -1,0 +1,16 @@
+.common-button {
+    border: 1px solid black;
+    background-color: #333;
+    border-radius: 40px;
+    padding: 24px, 56px, 24px, 56px;
+    gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    width: 297px;
+    height: 66px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+}

@@ -4,11 +4,15 @@
     font-family: 'Roboto Mono';
 }
 
-.container {
-    max-width: 60vw;  
-    margin: 0 auto;   
-    padding: 20px;    
+.container { 
+    max-width: 90%;
+    margin: 0 auto;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 
