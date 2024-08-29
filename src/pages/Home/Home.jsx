@@ -17,10 +17,10 @@ function Home() {
             </section>
             <section>
                 <div className="cards-container">
-                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."></Card>
-                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."></Card>
-                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."></Card>
-                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo."></Card>
+                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
+                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
+                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
+                    <Card title="01" img={youtubeImg} subtitle="Youtube" description="Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo." cardColor="#F1C2B0"></Card>
                 </div>
             </section>
         </div> 

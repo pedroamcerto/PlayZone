@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .text-banner-container{
     width: 50%;
@@ -18,22 +19,28 @@
     width: 48%;
 }
 .img-container img {
-    width: 651px;
-    height: 469px;
+    width: 100%;
+    height: auto;
 }
 .cards-container {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .text-banner-container{
         width: 100%;
     }
     .img-container {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .cards-container {
+        gap: 30px;
     }
 }

@@ -3,7 +3,7 @@ import './Card.css'
 
 function Card(props) {
     return ( 
-        <div className="card">
+        <div className="card" style={{backgroundColor: props.cardColor}}>
             <div className="card-content">
                 <div className='card-header'>
                     <h1 className="card-title">
