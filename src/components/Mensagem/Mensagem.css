@@ -1,0 +1,51 @@
+.caixaMensagem{
+    border-left: 2px solid #B9B7B7;
+    height: 100%;
+    padding: 20px 80px;
+}
+.caixaMensagem div{
+    display: flex;
+    justify-content:center;
+    
+}
+.mensagem{
+    flex-direction: column;
+}
+.botaoEnv{
+background-color: #6975E8;
+width: 190px;
+height: 28px;
+margin-top: 30px;
+color: white;
+align-items: center;
+justify-content: center;
+font-size: 12px;
+border-radius: 6px;
+cursor: pointer;
+float: right;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 350px; /* Faz o input ocupar 100% da largura do container menos o padding */
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior entre os inputs */
+    border: 1px solid #ddd; /* Borda leve e sutil */
+    height: 23px;
+    justify-content: end;
+    align-items: center;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Efeito de sombra interna */
+    box-sizing: border-box; /* Inclui padding e borda na largura do elemento */
+}
+label {
+    display: block; /* Faz com que cada label ocupe uma linha inteira */
+    margin-bottom: 5px; /* Espaço abaixo da label */
+    white-space: nowrap; 
+    justify-content: start;
+    width: 70px;
+}
+.mensagem textarea{
+    width: 100%;
+    min-height: 200px;
+    resize: none;
+    overflow-wrap: break-word;
+}
