@@ -11,7 +11,9 @@ function PlanCard({ data }) {
                         <h3>{planCard.title}</h3>
                     </div>
                     <div className="plan-card-body">
-                        <PlanOption options={planCard.options}></PlanOption>
+                        <div className='opt'>
+                            <PlanOption options={planCard.options}></PlanOption>
+                        </div>
                         <button 
                             className="plan-button" 
                             style={{ backgroundColor: planCard.buttonColor, color: planCard.buttonLabelColor, border: planCard.buttonBorder }}

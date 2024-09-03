@@ -18,7 +18,9 @@
     align-items: center;
     border: 1px solid #EBE9E9
 }
-
+.opt {
+    height: 100%;
+}
 .title-container h3 {
     text-align: center;
 }
