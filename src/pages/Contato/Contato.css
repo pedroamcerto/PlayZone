@@ -1,0 +1,13 @@
+.contato{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+}
+.infos{
+    width: 50%;
+    height: 400px;
+}
+.envioMensagem{
+    width: 50%;
+} 
